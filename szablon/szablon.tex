@@ -1,0 +1,37 @@
+% **** Szablon pracy magisterskiej, licencjackiej lub inżynierskiej ****
+
+\documentclass[polish,12pt,twoside,a4paper]{report}
+\renewcommand{\baselinestretch}{1.15} 
+
+\input{style.tex}
+
+%definicja przydatnych poleceń
+\newcommand{\wydzial}{KOLEGIUM INFORMATYKI STOSOWANEJ}
+\newcommand{\kierunek}{Kierunek: INFORMATYKA}
+\newcommand{\specjalnosc}{Specjalność: Teleinformatyka}
+\newcommand{\autor}{Imię nazwisko}
+\newcommand{\album}{Nr albumu studenta 213767}
+\newcommand{\nauczyciel}{imię nazwisko}
+\newcommand{\tematprojektu}{TEMAT PROJEKTU}
+\newcommand{\miasto}{Rzeszów}
+\newcommand{\przedmiot}{Przedmiot}
+\newcommand{\rok}{2026}
+
+\begin{document}
+
+% *************** Włączenie definicji pierwszych stron ***************
+\input{front.tex}
+
+
+% *************** Część główna pracy ***************
+\input{wstep.tex}
+\addcontentsline{toc}{chapter}{Wstęp}
+\newpage
+\input{R1.tex}
+\newpage
+\input{R2.tex}
+\newpage
+\input{R3.tex}
+%*** W razie potrzeby dodaj pozostałe rozdziały ***%
+\end{document}
+% *************** Koniec pliku szablon.tex ***************
